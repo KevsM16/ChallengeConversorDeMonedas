@@ -1,4 +1,4 @@
-package KevinMendez.challengue1.conversor;
+package KevinMendez.challenge1.conversor;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

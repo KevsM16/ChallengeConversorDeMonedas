@@ -1,4 +1,4 @@
-package KevinMendez.challengue1.conversor;
+package KevinMendez.challenge1.conversor;
 
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
@@ -8,7 +8,6 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.util.InputMismatchException;
 
 public  class ConverterAndDates {
     @SerializedName("conversion_rate")
