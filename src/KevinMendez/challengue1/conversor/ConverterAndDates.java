@@ -63,11 +63,19 @@ return calc;
 
 
 public double ConversionCalc(double cantidad){
-    this.cantidad=cantidad;
-    double resultado;
-    
-    resultado=cantidad*getCalc();
+    double resultado=0;
+    try{
+        this.cantidad=cantidad;
+
+        resultado=cantidad*getCalc();
+
+    }catch (InputMismatchException | NumberFormatException e){
+        System.out.println("Ingresa un valor valido");
+
+    }
     return resultado;
+
+
 }
 
 public String getMessage(){
