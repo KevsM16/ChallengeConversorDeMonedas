@@ -45,8 +45,10 @@ public class Menu_Principal {
                     }
                     System.out.println("Si desea salir coloque 1 de lo contrario coloque 2 para continuar ");
 
-                }
-                catch(Exception e){
+
+
+
+                    } catch (Exception e){
                     System.out.println("Oh oh ocurrio un error asegurate de colocar las siglas correctamente y en mayusculas para saber de mas siglas ingrese al siguiente link \uD83D\uDC49 https://www.exchangerate-api.com/docs/supported-currencies");
                     System.out.println("Si desea salir coloque 1 de lo contrario coloque 2 para continuar ");
                 }
