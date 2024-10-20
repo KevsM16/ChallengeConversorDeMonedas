@@ -8,6 +8,7 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.util.InputMismatchException;
 
 public  class ConverterAndDates {
 
@@ -40,7 +41,7 @@ public void HttpRequest(){
         ConverterAndDates converterAndDates=gson.fromJson(response.body(), ConverterAndDates.class);
         calc= converterAndDates.calc;
 
-    }catch(IOException| InterruptedException e){
+    }catch(IOException| InterruptedException  e){
         System.out.println("ERROR");
     }
 }
@@ -62,10 +63,11 @@ return calc;
 
 
 public double ConversionCalc(double cantidad){
-this.cantidad=cantidad;
-     double resultado;
-     resultado=cantidad*getCalc();
-return  resultado;
+    this.cantidad=cantidad;
+    double resultado;
+    
+    resultado=cantidad*getCalc();
+    return resultado;
 }
 
 public String getMessage(){
