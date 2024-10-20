@@ -1,10 +1,7 @@
 package KevinMendez.challengue1.conversor;
 
-import java.net.URISyntaxException;
-import java.util.IllegalFormatException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import java.util.zip.DataFormatException;
 
 public class Menu_Principal {
     public static void main(String[] args) {
@@ -15,7 +12,6 @@ public class Menu_Principal {
         boolean salir=false;
         int opcionSalir;
         ConverterAndDates conv=new ConverterAndDates();
-
             System.out.println("BIENVENIDO AL CONVERSOR DE MONEDAS \uD83E\uDE99: ");
 
             while(salir==false){
@@ -55,7 +51,7 @@ public class Menu_Principal {
 
             if (opcionSalir==1){
                 System.out.println("Muchas gracias por usar el conversor :D \uD83D\uDC4D");
-salir=true;
+                salir=true;
             }else{
                 moneda1=scan.nextLine();
             }

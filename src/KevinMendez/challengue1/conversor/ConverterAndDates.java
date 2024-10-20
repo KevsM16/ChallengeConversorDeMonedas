@@ -11,18 +11,11 @@ import java.net.http.HttpResponse;
 import java.util.InputMismatchException;
 
 public  class ConverterAndDates {
-
-
-
-
     @SerializedName("conversion_rate")
     private double calc;
 
     private  String moneda1;
-
-
     private String moneda2;
-
     private double cantidad;
 
 
@@ -63,25 +56,16 @@ return calc;
 
 
 public double ConversionCalc(double cantidad){
-    double resultado=0;
-    try{
-        this.cantidad=cantidad;
-
-        resultado=cantidad*getCalc();
-
-    }catch (InputMismatchException | NumberFormatException e){
-        System.out.println("Ingresa un valor valido");
-
-    }
+    double resultado;
+    this.cantidad=cantidad;
+    resultado=cantidad*getCalc();
     return resultado;
-
-
 }
+
 
 public String getMessage(){
     return "El valor de "+this.cantidad+" ["+moneda1.toUpperCase()+"] corresponde al valor final de == "+ConversionCalc(this.cantidad)+" ["+moneda2.toUpperCase()+"] ";
 }
-
 }
 
 
