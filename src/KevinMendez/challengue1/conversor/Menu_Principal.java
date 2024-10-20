@@ -31,8 +31,11 @@ public class Menu_Principal {
                     System.out.println("Selecciona la cantidad de la moneda elegida en la primera opcion");
                     cantidad=scan.nextDouble();
 
-                    conv.Converter(moneda1,moneda2);
-                    conv.ConversionCalc(cantidad);
+
+                        conv.Converter(moneda1,moneda2);
+                        conv.ConversionCalc(cantidad);
+
+
 
                     if(conv.getCalc()==0.0){
                         System.out.println("Ha ocurrido un error en la conversion asegurate de colocar las siglas correctamente para saber de mas siglas ingrese al siguiente link \uD83D\uDC49 https://www.exchangerate-api.com/docs/supported-currencies  ");
