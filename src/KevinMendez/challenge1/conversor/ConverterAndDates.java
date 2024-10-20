@@ -58,7 +58,6 @@ public double ConversionCalc(double cantidad){
     double resultado;
     this.cantidad=cantidad;
     resultado=cantidad*getCalc();
-    
     return resultado;
 }
 
