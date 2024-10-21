@@ -22,7 +22,6 @@
 
  ## Autores
 
-| [<img src="![Foto](https://github.com/user-attachments/assets/61b7cd48-571c-4af8-aca1-9e0a5ea4bc65)
-" width=115><br><sub>Kevin Mendez</sub>](https://github.com/KevsM16) |
+| [<img src="![FotoKevin](https://github.com/user-attachments/assets/7fdb3c54-4088-49b9-95d3-d1f72e0e98d3)" width=115><br><sub>Kevin Mendez</sub>](https://github.com/KevsM16) |
  | :---: |
  
