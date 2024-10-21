@@ -20,8 +20,8 @@
  </ol>
 
 
- ## Autores
+ ## Autor
 
-| [<img src="![FotoKevin](https://github.com/user-attachments/assets/7fdb3c54-4088-49b9-95d3-d1f72e0e98d3)" width=115><br><sub>Kevin Mendez</sub>](https://github.com/KevsM16) |
- | :---: |
+| [<img src="https://avatars.githubusercontent.com/u/134817139?s=400&u=e72d29a9bb7ddba1a3e6ec83a0d60a929e8398e9&v=4" width=115><br><sub>Kevin Mendez </sub>](https://github.com/KevsM16) |
+| :---: |
  
