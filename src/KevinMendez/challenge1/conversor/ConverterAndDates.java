@@ -65,6 +65,10 @@ public double ConversionCalc(double cantidad){
 public String getMessage(){
     return "El valor de "+this.cantidad+" ["+moneda1.toUpperCase()+"] corresponde al valor final de == "+ConversionCalc(this.cantidad)+" ["+moneda2.toUpperCase()+"] ";
 }
+
+public String toString(){
+    return "El valor de la conversion es "+getCalc();
+}
 }
 
 

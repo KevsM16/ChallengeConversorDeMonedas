@@ -12,6 +12,7 @@ public class Menu_Principal {
         boolean salir=false;
         int opcionSalir;
         ConverterAndDates conv=new ConverterAndDates();
+
             System.out.println("BIENVENIDO AL CONVERSOR DE MONEDAS \uD83E\uDE99: ");
 
             while(salir==false){
@@ -39,6 +40,8 @@ public class Menu_Principal {
                         System.out.println("Ha ocurrido un error en la conversion asegurate de colocar las siglas correctamente para saber de mas siglas ingrese al siguiente link \uD83D\uDC49 https://www.exchangerate-api.com/docs/supported-currencies  ");
                     }else{
                         System.out.println(conv.getMessage());
+
+
 
                     }
                     System.out.println("Si desea salir coloque 1 de lo contrario coloque 2 para continuar ");
